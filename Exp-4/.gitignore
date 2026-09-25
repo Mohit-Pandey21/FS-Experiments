@@ -1,0 +1,85 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+
+# Production & Build Artifacts
+dist/
+dist-ssr/
+build/
+out/
+.output/
+
+# Logs & Debug Output
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+vitest.log
+
+# Test & Coverage Outputs
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+.playwright/
+cypress/screenshots/
+cypress/videos/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+*.pem
+*.key
+
+# Tooling, Bundler & Compiler Caches
+.cache/
+.vite/
+.eslintcache
+.stylelintcache
+.prettiercache
+.tsbuildinfo
+.turbo/
+.swc/
+tmp/
+temp/
+
+# IDE & Editor Files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+
